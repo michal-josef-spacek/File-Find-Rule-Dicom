@@ -1,0 +1,3 @@
+CONCEPT
+=======
+File::Find::Rule DICOM file detect via Dicom::File::Detect.
