@@ -15,7 +15,7 @@ our $VERSION = 0.01;
 sub File::Find::Rule::dicom_file {
 	my $file_find_rule = shift;
 	my $self = $file_find_rule->_force_object;
-	return $self->exec(sub{
+	return $self->file->exec(sub{
 		my $file = shift;
 		return dicom_detect_file($file);
 	});
