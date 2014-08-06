@@ -11,7 +11,8 @@ author 'Michal Špaček <skim@cpan.org>';
 license 'bsd';
 name 'File-Find-Rule-Dicom';
 readme_from 'Dicom.pm';
-#requires 'perl' => '5.6.2';
+requires 'Dicom::File::Detect' => 0.01;
+requires 'perl' => '5.6.2';
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
 	'?Name=File-Find-Rule-Dicom';
 resources 'homepage' => 'https://github.com/tupinek/File-Find-Rule-Dicom';
