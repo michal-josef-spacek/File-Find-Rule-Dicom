@@ -6,7 +6,7 @@ use warnings;
 use inc::Module::Install;
 
 # Definition.
-abstract 'TODO';
+abstract 'Common rules for searching for DICOM things.';
 author 'Michal Špaček <skim@cpan.org>';
 license 'bsd';
 name 'File-Find-Rule-Dicom';
