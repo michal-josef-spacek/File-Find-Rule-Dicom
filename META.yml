@@ -22,6 +22,7 @@ meta-spec:
 name: File-Find-Rule-Dicom
 no_index:
   directory:
+    - examples
     - inc
     - t
 requires:
@@ -32,4 +33,4 @@ resources:
   homepage: https://github.com/tupinek/File-Find-Rule-Dicom
   license: http://opensource.org/licenses/BSD-3-Clause
   repository: git://github.com/tupinek/File-Find-Rule-Dicom
-version: 0.01
+version: 0.02

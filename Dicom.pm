@@ -9,7 +9,7 @@ use warnings;
 use Dicom::File::Detect qw(dicom_detect_file);
 
 # Version.
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 # Detect DICOM file.
 sub File::Find::Rule::dicom_file {
@@ -106,6 +106,6 @@ BSD license.
 
 =head1 VERSION
 
-0.01
+0.02
 
 =cut
