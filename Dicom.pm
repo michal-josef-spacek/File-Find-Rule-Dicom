@@ -92,7 +92,7 @@ L<File::Find::Rule>.
 
 =head1 REPOSITORY
 
-L<https://github.com/tupinek/File::Find::Rule::Dicom>
+L<https://github.com/tupinek/File-Find-Rule-Dicom>
 
 =head1 AUTHOR
 

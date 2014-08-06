@@ -47,7 +47,7 @@ SEE ALSO
     File::Find::Rule.
 
 REPOSITORY
-    <https://github.com/tupinek/File::Find::Rule::Dicom>
+    <https://github.com/tupinek/File-Find-Rule-Dicom>
 
 AUTHOR
     Michal Špaček <mailto:skim@cpan.org>
