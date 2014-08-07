@@ -39,6 +39,13 @@ File::Find::Rule::Dicom - Common rules for searching for DICOM things.
  use File::Find::Rule::Dicom;
  my @files = File::Find::Rule->dicom_file->in($dir);
 
+=head1 DESCRIPTION
+
+This Perl module contains File::Find::Rule rules for detecting DICOM things.
+DICOM (Digital Imaging and Communications in Medicine) is a standard for
+handling, storing, printing, and transmitting information in medical imaging.
+See L<DICOM on Wikipedia|https://en.wikipedia.org/wiki/DICOM>.
+
 =head1 SUBROUTINES
 
 =over 8
