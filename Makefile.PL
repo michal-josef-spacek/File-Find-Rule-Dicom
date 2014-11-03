@@ -7,7 +7,7 @@ use inc::Module::Install;
 
 # Definition.
 abstract 'Common rules for searching for DICOM things.';
-author 'Michal Špaček <skim@cpan.org>';
+author 'Michal Spacek <skim@cpan.org>';
 license 'bsd';
 name 'File-Find-Rule-Dicom';
 readme_from 'Dicom.pm';
