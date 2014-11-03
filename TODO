@@ -1,7 +1,9 @@
 TODO
 ====
 2. Check DICOMDIR.
-3.
+3. Check DICOM file, which has any dataset item and value.
+4. Check right DICOM file.
+5.
 
 Applied
 =======
