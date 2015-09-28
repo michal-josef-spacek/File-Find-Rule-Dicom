@@ -95,7 +95,13 @@ L<File::Find::Rule>.
 
 =head1 SEE ALSO
 
-L<File::Find::Rule>.
+=over
+
+=item L<File::Find::Rule>
+
+Alternative interface to File::Find
+
+=back
 
 =head1 REPOSITORY
 
