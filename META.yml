@@ -3,13 +3,10 @@ abstract: 'Common rules for searching for DICOM things.'
 author:
   - 'Michal Spacek <skim@cpan.org>'
 build_requires:
-  English: 0
   ExtUtils::MakeMaker: 6.36
   File::Object: 0.08
   Test::More: 0
   Test::NoWarnings: 0
-  Test::Pod: 0
-  Test::Pod::Coverage: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.36
 distribution_type: module
@@ -25,6 +22,7 @@ no_index:
     - examples
     - inc
     - t
+    - xt
 requires:
   Dicom::File::Detect: 0.01
   File::Find::Rule: 0

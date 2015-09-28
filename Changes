@@ -1,6 +1,7 @@
 0.04
  - Improve LICENSE AND COPYRIGHT section in doc.
  - Improve SEE ALSO section in doc.
+ - Move author tests to xt/ directory.
  - Update Module::Install to 1.16 version.
 
 0.03 2014-08-07T09:34:00+02:00

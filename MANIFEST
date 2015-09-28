@@ -2,6 +2,8 @@ Changes
 Dicom.pm
 examples/ex1.pl
 inc/Module/Install.pm
+inc/Module/Install/AuthorRequires.pm
+inc/Module/Install/AuthorTests.pm
 inc/Module/Install/Base.pm
 inc/Module/Install/Can.pm
 inc/Module/Install/Fetch.pm
@@ -18,8 +20,8 @@ README
 SIGNATURE
 t/data/ex1.dcm
 t/data/ex2.dcm
-t/File-Find-Rule-Dicom/00-use.t
-t/File-Find-Rule-Dicom/01-version.t
-t/File-Find-Rule-Dicom/02-pod_coverage.t
-t/File-Find-Rule-Dicom/03-pod.t
-t/File-Find-Rule-Dicom/04-dicom_file.t
+t/File-Find-Rule-Dicom/01-use.t
+t/File-Find-Rule-Dicom/02-version.t
+t/File-Find-Rule-Dicom/03-dicom_file.t
+xt/File-Find-Rule-Dicom/01-pod_coverage.t
+xt/File-Find-Rule-Dicom/02-pod.t
