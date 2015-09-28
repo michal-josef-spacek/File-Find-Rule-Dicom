@@ -9,7 +9,7 @@ use warnings;
 use Dicom::File::Detect qw(dicom_detect_file);
 
 # Version.
-our $VERSION = 0.04;
+our $VERSION = 0.05;
 
 # Detect DICOM file.
 sub File::Find::Rule::dicom_file {
@@ -120,6 +120,6 @@ L<http://skim.cz>
 
 =head1 VERSION
 
-0.04
+0.05
 
 =cut
