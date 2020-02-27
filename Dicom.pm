@@ -6,7 +6,6 @@ use warnings;
 
 use Dicom::File::Detect qw(dicom_detect_file);
 
-# Version.
 our $VERSION = 0.05;
 
 # Detect DICOM file.
