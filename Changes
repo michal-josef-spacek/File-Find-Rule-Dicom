@@ -1,4 +1,5 @@
 0.05
+ - Fix Makefile.PL fails with no '.' in @INC.
  - Update Module::Install to 1.19 version.
 
 0.04 2015-09-28T11:28:15+02:00
