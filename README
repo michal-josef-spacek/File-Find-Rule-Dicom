@@ -25,11 +25,9 @@ ERRORS
                      Cannot open file '%s'.
 
 EXAMPLE
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use File::Find::Rule;
      use File::Find::Rule::Dicom;
 

@@ -1,11 +1,9 @@
 package File::Find::Rule::Dicom;
 
-# Pragmas.
 use base qw(File::Find::Rule);
 use strict;
 use warnings;
 
-# Modules.
 use Dicom::File::Detect qw(dicom_detect_file);
 
 # Version.
@@ -66,11 +64,9 @@ See L<DICOM on Wikipedia|https://en.wikipedia.org/wiki/DICOM>.
 
 =head1 EXAMPLE
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use File::Find::Rule;
  use File::Find::Rule::Dicom;
 
