@@ -37,6 +37,7 @@ File::Find::Rule::Dicom - Common rules for searching for DICOM things.
 
  use File::Find::Rule;
  use File::Find::Rule::Dicom;
+
  my @files = File::Find::Rule->dicom_file->in($dir);
 
 =head1 DESCRIPTION
